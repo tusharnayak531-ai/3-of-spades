@@ -41,7 +41,35 @@ body{color:#17243a;background:#f4f6fa;font-size:14px}
 .side-panel h3,.side-panel strong,.stat strong{color:#17243a}.stat-grid,.chat-log{background:#f8fafc;border-color:#e1e6ee;color:#17243a}.stat{border-color:#e1e6ee}.stat small{color:#64748b}.game-page-label button,.ghost{background:#fff;color:#334155;border-color:#cbd5e1}.primary{background:#2563eb;color:white;border-color:#2563eb}.success{background:#087f68;color:white;border-color:#087f68}.danger{background:#bd354c;color:white}.warn{background:#ad7a22;color:white}
 input,select,.form-input{background:#fff!important;color:#17243a!important;border-color:#cbd5e1!important}.badge{box-shadow:none}.control-note{color:#64748b}.table-oval{border-width:11px;box-shadow:0 0 0 3px #cba77e,inset 0 0 30px #001b15,0 12px 24px #0002}
 @media(max-width:700px){.header{gap:8px}.wallet-pill{padding:6px}.brand-icon{display:none}.workspace{padding:12px}}
-.workspace:not(.game-selected) .main-grid{display:none}.workspace:not(.game-selected) .game-page-label{display:none}.workspace:not(.game-selected) .section-intro{display:block}.workspace:not(.game-selected) .games{display:grid}.workspace.game-selected .main-grid{display:grid}.workspace.game-selected .section-intro,.workspace.game-selected .games{display:none}.side-panel{min-width:0}.controls button{min-width:0}.hand-cards{scrollbar-width:thin}.game-tab:focus-visible{outline:3px solid #2563eb;outline-offset:3px}@media(max-width:600px){.nav{display:none}.mobile-nav{display:flex}.game-tab{width:100%}.table-oval{height:340px}.seat-info{padding:4px 6px}.seat-emoji{width:30px;height:30px;font-size:19px}.seat-label strong{font-size:11px}}</style>
+.workspace:not(.game-selected) .main-grid{display:none}.workspace:not(.game-selected) .game-page-label{display:none}.workspace:not(.game-selected) .section-intro{display:block}.workspace:not(.game-selected) .games{display:grid}.workspace.game-selected .main-grid{display:grid}.workspace.game-selected .section-intro,.workspace.game-selected .games{display:none}.side-panel{min-width:0}.controls button{min-width:0}.hand-cards{scrollbar-width:thin}.game-tab:focus-visible{outline:3px solid #2563eb;outline-offset:3px}@media(max-width:600px){.nav{display:none}.mobile-nav{display:flex}.game-tab{width:100%}.table-oval{height:340px}.seat-info{padding:4px 6px}.seat-emoji{width:30px;height:30px;font-size:19px}.seat-label strong{font-size:11px}}
+/* Kali Tidi v34.9 visual language, adapted for all CardClub 3 games */
+:root{color-scheme:dark;--navy:#051712;--surface:#0b2a20;--panel:#10382a;--line:#285746;--blue:#2ca879;--gold:#edc86b;--muted:#a9c8bb;--text:#f4fbf7;--green:#2ca879}
+body{background:radial-gradient(circle at 50% 0,#0f4230 0,#061b15 43%,#04120e 100%);color:#f4fbf7}
+.header,.nav,.stage,.side-panel{background:rgba(11,42,32,.95);border-color:#285746;color:#f4fbf7}
+.header{box-shadow:0 8px 25px #0003}.brand-title,.stage-heading h2,.side-panel h3,.side-panel strong,.stat strong{color:#f4fbf7}
+.nav button{color:#d5e9de}.nav button.active,.nav button:hover{background:#164b36;color:#edc86b;border-color:#476c53}
+.workspace{background:transparent}.section-intro h1{color:#f4fbf7}.section-intro p,.muted,.stage-heading .muted{color:#a9c8bb!important}
+.game-tab,.game-tab[data-game=kali],.game-tab[data-game=kachu]{background:linear-gradient(145deg,#103b2b,#09251c);border:1px solid #285746;color:#f4fbf7;box-shadow:0 12px 28px #0003}
+.game-tab:hover,.game-tab.active{background:#164a36;border-color:#edc86b;box-shadow:0 0 0 2px #edc86b25}.game-tab small{color:#a9c8bb}
+.stage-top,.home-panel,.home-hero,.hand-section,.lobby-panel{background:#0b2a20!important;border-color:#285746;color:#f4fbf7}
+.home-hero h2{color:#f4fbf7}.gold{color:#edc86b}.eyebrow{color:#edc86b}
+.mini-box,.stat-grid,.stat,.chat-log,.wallet-pill,.profile-pill{background:#09251c;border-color:#285746;color:#f4fbf7}
+.mini-box strong{color:#edc86b}.mini-box span,.stat small,.control-note{color:#a9c8bb}
+input,select,.form-input{background:#071f17!important;color:#f4fbf7!important;border-color:#285746!important}
+input:focus,select:focus{border-color:#edc86b!important;outline:2px solid #edc86b35}
+button.primary,.primary,.success{background:linear-gradient(135deg,#f0d27e,#d6aa44);color:#1d231f;border:1px solid #d6aa44}
+button.ghost,.ghost,.game-page-label button{background:#143f30;color:#f4fbf7;border:1px solid #285746}
+button:hover:not(:disabled){filter:brightness(1.08)}
+.felt-scene{background:transparent;padding:22px 12px 18px}
+.table-oval{border:10px solid #4a311d;background:radial-gradient(circle at center,rgba(128,221,170,.12),transparent 45%),radial-gradient(ellipse at center,#137251,#0b4e38 72%,#083a2a 100%);box-shadow:inset 0 0 0 2px #8e6a3c,inset 0 0 80px #0003,0 24px 50px #0006;border-radius:48%/32%}
+.table-oval:before{inset:20px;border-color:#b8e8b038}.table-oval:after{content:'♠ CARDCLUB 3 ♠';color:#e9d7a0;opacity:.3;letter-spacing:3px}
+.play-card{background:#fffdf7;color:#15201c;border:1px solid #e4dfd2;border-radius:10px;box-shadow:0 10px 22px #0005,inset 0 0 0 1px #e4dfd2}
+.play-card.red{color:#b22f2c}.play-card.selectable:hover,.play-card.selected{box-shadow:0 10px 24px #0005,0 0 0 2px #edc86b}
+.seat-info{background:#09251ce8;border:1px solid #47735f;color:#f4fbf7}.seat.active .seat-info{border-color:#edc86b;box-shadow:0 0 0 4px #edc86b25}
+.hand-section{border-radius:19px}.phase-banner{background:#103b2b;color:#edc86b;border-color:#285746}
+.badge{background:#123b2c;color:#edc86b;border:1px solid #285746}.game-page-label strong{color:#edc86b}
+@media(max-width:700px){.felt-scene{padding:12px 5px}.table-oval{border-width:6px;border-radius:35%/25%}.table-oval:before{inset:11px}.play-card{border-radius:7px}}
+</style>
 </head>
 <body>
 <header class="header">
